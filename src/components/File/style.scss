@@ -1,0 +1,22 @@
+.file {
+  display: block;
+
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  background: #efefef;
+  color: #333;
+  font-size: 15px;
+
+  &--empty {
+    padding: 1.25rem;
+  }
+
+  .filename {
+    span,
+    p {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}

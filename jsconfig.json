@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "target": "es6",
+    "baseUrl": "src",
+    "paths": {
+      "~actions/*": ["actions/*"],
+      "~api/*": ["api/*"],
+      "~assets/*": ["assets/*"],
+      "~components/*": ["components/*"],
+      "~containers/*": ["containers/*"],
+      "~constants/*": ["constants/*"],
+      "~reducers/*": ["reducers/*"],
+      "~sagas/*": ["sagas/*"],
+      "~styles/*": ["styles/*"],
+      "~utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
